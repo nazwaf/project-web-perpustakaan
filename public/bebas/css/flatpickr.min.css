@@ -1,0 +1,16 @@
+/*! flatpickr v4.6.13, @license MIT */
+.flatpickr-calendar {
+    direction: ltr;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    position: absolute;
+    width: 307.2px;
+    border-radius: 8px;
+    border: 1px solid #dedede;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 99999;
+  }
+  /* Truncated for brevity; please download full file via the link above */
+  
