@@ -51,7 +51,9 @@
                         @endif
                     @endauth
                 @endif
-            </div>
+            </div><br>
+             <p class="text-lg mb-8">untuk testing, login menggunakan</p>
+             <p class="text-lg mb-8">email : admin@admin.com | password : adminadmin</p>
         </div>
 
         <!-- Features Section -->
