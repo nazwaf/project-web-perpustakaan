@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 29 Des 2024 pada 17.37
+-- Waktu pembuatan: 24 Apr 2026 pada 09.59
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `perpusdb`
+-- Database: `db_testporto`
 --
 
 -- --------------------------------------------------------
@@ -61,11 +61,11 @@ CREATE TABLE `anggota` (
 --
 
 INSERT INTO `anggota` (`id`, `kode_anggota`, `nama_anggota`, `email`, `nohp`, `alamat`, `jk`, `created_at`, `updated_at`) VALUES
-(1, 'AGT001', 'Anindya Silvia', 'aninanin@gmail.com', '088987676543', 'Kota Baru', 'Perempuan', '2024-12-01 04:46:36', '2024-12-01 04:46:36'),
-(2, 'AGT002', 'Nazwa Finanda', 'wawa@gmail.com', '088987676543', 'Eka Jaya', 'Perempuan', '2024-12-22 15:22:01', '2024-12-22 15:22:01'),
-(3, 'AGT003', 'Fitriya Rahma', 'lala@gmail.com', '088998767654', 'Jelutung', 'Perempuan', '2024-12-19 15:22:01', '2024-12-19 15:22:01'),
-(4, 'AGT004', 'Shafaa Kayla', 'keil@gmail.com', '087898765634', 'Kota Baru', 'Perempuan', '2024-12-26 15:24:18', '2024-12-26 15:24:18'),
-(5, 'AGT005', 'Dzakwan Syah', 'zakwan@gmail.com', '088978654332', 'Talang Bakung', 'Laki-Laki', '2024-12-29 15:24:18', '2024-12-29 15:24:18');
+(1, 'AGT001', 'Axel', 'xelxel@gmail.com', '08823323222', 'Jl.Where', 'Laki-laki', '2024-12-01 04:46:36', '2024-12-01 04:46:36'),
+(2, 'AGT002', 'Jiyu', 'jiujiy@gmail.com', '08434543433', 'Jl.Merdeka', 'Perempuan', '2024-12-22 15:22:01', '2024-12-22 15:22:01'),
+(3, 'AGT003', 'Leeseo', 'sseol@gmail.com', '08566545345', 'Jl.Selamat', 'Perempuan', '2024-12-19 15:22:01', '2024-12-19 15:22:01'),
+(4, 'AGT004', 'Neo', 'eon@gmail.com', '0887667898', 'Jl.Baru', 'Laki-laki', '2024-12-26 15:24:18', '2024-12-26 15:24:18'),
+(5, 'AGT005', 'Zeyn', 'ezn@gmail.com', '0826787656', 'Jl.Sederhana', 'Laki-Laki', '2024-12-29 15:24:18', '2024-12-29 15:24:18');
 
 -- --------------------------------------------------------
 
@@ -271,7 +271,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Project Kelompok', 'stuvidylrn@gmail.com', NULL, '$2y$10$ziYCvYeZyudzclwJJyr9ruXS.ze7ULzzxG7JsaOBOEPXgXH6wcU/S', NULL, '2024-12-13 07:10:00', '2024-12-13 07:10:00');
+(1, 'Admin', 'admin@gmail.com', NULL, '$2y$10$ziYCvYeZyudzclwJJyr9ruXS.ze7ULzzxG7JsaOBOEPXgXH6wcU/S', NULL, '2024-12-13 07:10:00', '2024-12-13 07:10:00'),
+(2, 'Admin', 'admin@admin.com', NULL, '$2y$10$EhAh8fefBMKvhOZdiKX.8OCHSM35UXgmoXS.bTV/nxI3Tr7X7V2KG', NULL, '2026-04-24 00:26:46', '2026-04-24 00:26:46');
 
 --
 -- Indexes for dumped tables
@@ -408,7 +409,7 @@ ALTER TABLE `rak`
 -- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
